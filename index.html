@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body>
+    <div class="container mx-auto p-5">
+        <div class=" md:flex md:flex-row md:justify-between items-center text-center ">
+            <div class="flex flex-row justify-center m-3">
+                <div class="bg-gradient-to-r from-indigo-400 to-emerald-400 w-10 h-10 rounded-lg"></div>
+                <h1 class="text-3xl text-gray-600 ml-2">Logo</h1>
+            </div>
+
+            <div class="md:flex flex-row items-center space-x-4">
+                <a href="#" class="text-gray-600 hover:text-emerald-600">Home</a>
+                <a href="#" class="text-gray-600 hover:text-emerald-600">Shop</a>
+                <a href="#" class="text-gray-600 hover:text-emerald-600">Blog</a>
+                <a href="#" class="text-gray-600 hover:text-emerald-600">Contact</a>
+                <a href="#" class="bg-emerald-400 text-gray-50 hover:text-emerald-600 p-1.5 px-3 rounded-full md:flex items-center inline-block m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block" aria-label="Shopping Cart">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 
+                        60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                    Cart (0)
+                </a>
+            </div>
+        </div>
+
+        <div class="md:flex md:flex-row mt-20 ml-10">
+            <div class="md:w-2/5 flex flex-col justify-center items-center">
+                <h2 class="font-serif text-4xl text-gray-600 mb-4 text-center md:self-start md:text-left">Welcome To Website ..</h2>
+                <p class="uppercase text-gray-600 tracking-wide text-center md:self-start md:text-left">The brand tagline goes here.</p>
+                <p class="uppercase text-gray-600 tracking-wide text-center md:self-start md:text-left">The brand motto goes here.</p>
+                <a href="#" class="bg-gradient-to-r from-indigo-400 to-emerald-400 rounded-full py-3 px-6 text-gray-50 uppercase 
+                md:self-start my-5">Shop Now</a>
+            </div>
+            <div class="md:w-2/5">
+                <img src="https://images.businessnewsdaily.com/app/uploads/2022/04/04073619/how-ecommerce-works.png" class="w-full">
+            </div>
+        </div>
+        <!-- Men's collection -->
+        <div class="my-10">
+             <div class="flex flex row justify-between my-5">
+                <h2 class="text-3xl text-gray-600">Men's Collection</h2>
+                <a href="#" class="text-xl flex flex-row">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-5 ml-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>
+                    </a>
+             </div>
+             <div class=" grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                <div class="shadow-lg rounded-lg">
+                    <a href="#">
+                        <img src="https://i.pinimg.com/736x/ae/e0/66/aee0666417d222dfe4abfe0ba8a52c8e.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="#">Black Men's Shirt</a></h3>
+                        <div class="flex flex-row my-3">
+                            <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row my-3">
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                        </div>
+
+                        <div class="flex flex-col xl:flex-row justify-between">
+                            <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                     2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                                Add to cart
+                            </a>
+                            <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                  </svg>
+                                  
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+
+                        </div>
+                    </div>
+                <div class="shadow-lg rounded-lg">
+                    <a href="#">
+                        <img src="https://i.pinimg.com/736x/21/1e/77/211e77351e82ce52d8f4658aedd35a1e.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="#">White Men's Shirt</a></h3>
+                        <div class="flex flex-row my-3">
+                            <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row my-3">
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                        </div>
+
+                        <div class="flex flex-col xl:flex-row justify-between">
+                            <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                     2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                                Add to cart
+                            </a>
+                            <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                  </svg>
+                                  
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                <div class="shadow-lg rounded-lg">
+                    <a href="#">
+                        <img src="https://i.pinimg.com/736x/92/97/11/929711fbe0d3a3aced42e68ba0afc2d2.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="#">Blue Casual Shirt</a></h3>
+                        <div class="flex flex-row my-3">
+                            <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row my-3">
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                        </div>
+
+                        <div class="flex flex-col xl:flex-row justify-between">
+                            <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                     2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                                Add to cart
+                            </a>
+                            <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                  </svg>
+                                  
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+
+                        </div>
+                    </div>
+                <div class="shadow-lg rounded-lg">
+                    <a href="#">
+                        <img src="https://i.pinimg.com/736x/f4/e3/39/f4e339dd69582306d7e001c36b2518c0.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                    </a>
+                    <div class="p-5">
+                        <h3><a href="#">Biege Polo Shirt</a></h3>
+                        <div class="flex flex-row my-3">
+                            <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-orange-200 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row my-3">
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                            <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                        </div>
+
+                        <div class="flex flex-col xl:flex-row justify-between">
+                            <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                     2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                                Add to cart
+                            </a>
+                            <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                  </svg>
+                                  
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+               
+
+             </div>
+             <!-- Women's collection -->
+             <div class="my-20">
+                <div class="flex flex row justify-between my-5">
+                   <h2 class="text-3xl text-gray-600">Women's Collection</h2>
+                   <a href="#" class="text-xl flex flex-row">
+                       View All
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-5 ml-1">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                         </svg>
+                       </a>
+                </div>
+                <div class=" grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                   <div class="shadow-lg rounded-lg">
+                       <a href="#">
+                           <img src="https://i.pinimg.com/736x/86/59/53/86595338750d5af13c077a82309a7820.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                       </a>
+                       <div class="p-5">
+                           <h3><a href="#">Off-White Shirt</a></h3>
+                           <div class="flex flex-row my-3">
+                               <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                           </div>
+                           <div class="flex flex-row my-3">
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                           </div>
+   
+                           <div class="flex flex-col xl:flex-row justify-between">
+                               <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                        2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                   </svg>
+                                   Add to cart
+                               </a>
+                               <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                     </svg>
+                                     
+                                   </svg>
+                                   View Details
+                               </a>
+                           </div>
+   
+                           </div>
+                       </div>
+                   <div class="shadow-lg rounded-lg">
+                       <a href="#">
+                           <img src="https://i.pinimg.com/736x/d0/4d/7c/d04d7cbdd0f99d2c264375f5825f45f4.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                       </a>
+                       <div class="p-5">
+                           <h3><a href="#">White Shirt</a></h3>
+                           <div class="flex flex-row my-3">
+                               <div class="bg-green-900 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                           </div>
+                           <div class="flex flex-row my-3">
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                           </div>
+   
+                           <div class="flex flex-col xl:flex-row justify-between">
+                               <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                        2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                   </svg>
+                                   Add to cart
+                               </a>
+                               <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                     </svg>
+                                     
+                                   </svg>
+                                   View Details
+                               </a>
+                           </div>
+                           </div>
+                       </div>
+                   <div class="shadow-lg rounded-lg">
+                       <a href="#">
+                           <img src="https://i.pinimg.com/736x/6e/02/b9/6e02b98a22c8d798e15cddc26eaf9a46.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                       </a>
+                       <div class="p-5">
+                           <h3><a href="#">Black High-neck Top</a></h3>
+                           <div class="flex flex-row my-3">
+                               <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                           </div>
+                           <div class="flex flex-row my-3">
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                           </div>
+   
+                           <div class="flex flex-col xl:flex-row justify-between">
+                               <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                        2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                   </svg>
+                                   Add to cart
+                               </a>
+                               <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                     </svg>
+                                     
+                                   </svg>
+                                   View Details
+                               </a>
+                           </div>
+   
+                           </div>
+                       </div>
+                   <div class="shadow-lg rounded-lg">
+                       <a href="#">
+                           <img src="https://i.pinimg.com/736x/79/9e/4f/799e4fe706061e4c89a7942a5aa52852.jpg" class="rounded-tl-lg rounded-tr-lg" >
+                       </a>
+                       <div class="p-5">
+                           <h3><a href="#">White Basic Shirt</a></h3>
+                           <div class="flex flex-row my-3">
+                               <div class="bg-black h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-gray-50 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                               <div class="bg-blue-800 h-4 w-4 rounded-full shadow-md mr-2"></div>
+                           </div>
+                           <div class="flex flex-row my-3">
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">M</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">L</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XL</div>
+                               <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-3 py-1 mr-2">XXL</div>
+                           </div>
+   
+                           <div class="flex flex-col xl:flex-row justify-between">
+                               <a href="#" class=" m-1 justify-center bg-emerald-400 rounded-full py-1 px-2 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-emerald-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1" aria-label="Shopping Cart">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3
+                                        2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                   </svg>
+                                   Add to cart
+                               </a>
+                               <a href="#" class="m-1 justify-center bg-indigo-400 rounded-full py-0.5 px-1.5 text-gray-50 text-xs uppercase flex flex-row items-center hover:text-indigo-600">
+                                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                       <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                     </svg>
+                                     
+                                   </svg>
+                                   View Details
+                               </a>
+                           </div>
+   
+                           </div>
+                       </div>
+                       
+                   </div>
+                  
+   
+                </div>
+           </div>
+                <div class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between text-center p-5 text-sm">
+                    <div class="mb-4">
+                        <a href="#" class="mx-2.5">About</a>
+                        <a href="#" class="mx-2.5">Privacy Policy</a>
+                        <a href="#" class="mx-2.5">Terms of Services</a>
+                    </div>
+                    <p>&copy; Copyright Reserved</p>
+            </div>
+                </div>
+        
+    </div>
+</body>
+
+</html>
